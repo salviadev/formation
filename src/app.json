@@ -1,0 +1,14 @@
+{
+    "odata": {
+        "base": "../bus/{$module}/odata",
+        "cache": false,
+        "authentication": "header-session"
+    },
+    "rest": {
+        "base": "../bus",
+        "cache": false,
+        "authentication": "header-session"
+    },
+    "support": "Marketing@salviadeveloppement.com"
+}
+

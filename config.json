@@ -1,0 +1,9 @@
+{
+  "proxy": {
+    "bus": {
+      "src": "/bus/*",
+      "dst": "https://phenix.salviadeveloppement.com/fp1"
+    }
+  },
+	"simulateBus": true
+}

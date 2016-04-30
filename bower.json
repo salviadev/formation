@@ -1,0 +1,18 @@
+{
+    "name": "phoenix-seed",
+    "description": "A starter project for Phoenix",
+    "version": "0.0.0",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "phoenix-cli": "git+https://salvia.visualstudio.com/DefaultCollection/PhenixJS/_git/phoenix-cli#master",
+        "phoenix-app": "git+https://salvia.visualstudio.com/DefaultCollection/PhenixJS/_git/phoenix-app#master",
+        "angular": "1.4.x",
+        "angular-route": "1.4.x",
+        "es6-promise": "latest",
+        "jquery-touchswipe": "latest",
+        "isMobile": "latest",
+        "bootstrap": "latest",
+        "bootstrap-datepicker": "latest"
+    }
+}

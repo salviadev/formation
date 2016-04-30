@@ -1,0 +1,22 @@
+{
+  "modules": {
+    "user-detail-form": {
+      "$moduleTitle": "My form",
+      "$title": "Form",
+      "$titleIsHidden": false,
+      "data": {
+        "layout": "user-detail-form",
+        "schema": "user-detail-form"
+      }
+    },
+    "html-test": {
+      "$moduleTitle": "Html",
+      "$titleIsHidden": true,
+      "data": {
+        "title": ""
+      }
+    }
+  }
+}
+
+

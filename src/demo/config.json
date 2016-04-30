@@ -1,0 +1,15 @@
+{
+    "application": {
+        "title": "My application"
+    },
+    "plugins": {
+        "debug": {
+            "scripts": [],
+            "styles": []
+        },
+        "dist": {
+            "scripts": [],
+            "styles": []
+        }
+    }
+}

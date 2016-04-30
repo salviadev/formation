@@ -1,0 +1,37 @@
+{
+  "type": "object",
+  "properties": {
+    "firstName": {
+      "title": "First Name",
+      "type": "string"
+    },
+    "lastName": {
+      "title": "Last Name",
+      "type": "string"
+    },
+    "fullName": {
+      "title": "Full Name",
+      "type": "string"
+    }
+  },
+  "states": {
+    "firstName": {
+      "isMandatory": true
+    },
+    "lastName": {
+      "isMandatory": true
+    },
+    "fullName": {
+      "isReadOnly": true
+    }
+  },
+  "links": {
+    "link1": {
+      "title": "Show Info"
+    },
+    "checkuser": {
+      "title": "Check User"
+    }
+    
+  }
+}

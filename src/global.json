@@ -1,0 +1,12 @@
+{
+  "header": {
+    "allwaysShow": false,
+    "authLeftMenu": false,
+    "uppercase": true,
+    "align": "center"
+  },
+  "homes": {
+    "demo": "home"
+  },
+  "portailName": "demo"
+}
