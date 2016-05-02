@@ -38,9 +38,18 @@ npm install
 bower install
 ```
 
-## Compile
+## Compile all applications
 
 `grunt`
+
+## Compile one application
+
+`grunt -module demo`
+
+## Reinstall phoenix-cli and compike
+
+`grunt --install-client`
+
 
 ## Start the server
 
