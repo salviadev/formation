@@ -28,7 +28,7 @@ namespace Phoenix {
                 restrict: 'E',
                 replace: true,
                 controller: "UserDetailFormController",
-                template: '<div><bsform layout="props.data.layout" action="onModelChange" data="data" schema="props.data.schema"></bsform</div>'
+                template: '<div><bsform layout="props.data.layout" action="onModelChange" data="data" meta="props.data.meta"></bsform</div>'
             };
         }]);
     }

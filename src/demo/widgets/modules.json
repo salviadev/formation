@@ -6,7 +6,7 @@
       "$titleIsHidden": false,
       "data": {
         "layout": "user-detail-form",
-        "schema": "user-detail-form"
+        "meta": "user-detail-form"
       }
     },
     "html-test": {
