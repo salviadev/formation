@@ -1,6 +1,6 @@
 {
   "header": {
-    "allwaysShow": false,
+    "alwaysShow": false,
     "authLeftMenu": false,
     "uppercase": true,
     "align": "center"
