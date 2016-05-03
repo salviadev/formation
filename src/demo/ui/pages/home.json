@@ -1,6 +1,41 @@
 {
 	"name": "home",
 	"$items": [
+		{
+			"$type": "block",
+			"$items": []
+		},
+		{
+			"$type": "block",
+			"$items": []
+		},
+		{
+			"$type": "block",
+			"$items": [
+				{
+					"$config": {
+						"$title": "MMMMMM",
+						"$titleIsHidden": false,
+						"$type": "html-test",
+						"links": {
+							"link1": {
+								"$page": "empty"
+							}
+						},
+						"datasets": {
+							"communes": {
+								"$type": "odata",
+								"$params": {
+									"$method": "GET",
+									"$module": "sms",
+									"$entity": "SpoCommune"
+								}
+							}
+						}
+					}
+				}
+			]
+		}
 	],
 	"$type": "block"
 }

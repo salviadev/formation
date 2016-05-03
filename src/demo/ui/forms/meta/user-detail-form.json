@@ -12,6 +12,34 @@
     "fullName": {
       "title": "Full Name",
       "type": "string"
+    },
+    "gender": {
+      "title": "Gender",
+      "type": "string",
+      "enum": ["m", "f"],
+      "enumNames": ["Male", "Female"]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+          "country": {
+            "title": "Country",
+            "type": "string"
+          }, 
+          "city": {
+            "title": "City",
+            "type": "string"
+          } 
+      }
+    },
+    "age": {
+      "title": "Age",
+      "type": "number",
+      "decimals": 2
+    },
+    "bdate": {
+      "type": "string",
+      "format": "date"
     }
   },
   "states": {
@@ -24,6 +52,7 @@
     "fullName": {
       "isReadOnly": true
     }
+    
   },
   "links": {
     "link1": {

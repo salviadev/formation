@@ -2,6 +2,85 @@
 	"name": "user-detail-form",
 	"$type": "block",
 	"$items": [
+		{
+			"$type": "block",
+			"$items": []
+		},
+		{
+			"$type": "row",
+			"$items": [
+				{
+					"$items": [
+						{
+							"$bind": "firstName"
+						}
+					],
+					"$colSize": 6
+				},
+				{
+					"$items": [
+						{
+							"$bind": "lastName"
+						}
+					],
+					"$colSize": 6
+				}
+			]
+		},
+		{
+			"$type": "block",
+			"$items": [
+				{
+					"$bind": "address.country"
+				},
+				{
+					"$bind": "address.city"
+				}
+			],
+			"$title": {
+				"value": "Address",
+				"size": 4,
+				"style": ""
+			},
+			"$fieldsOptions": {
+				"columns": true,
+				"labelCol": 6
+			},
+			"$inline": false
+		},
+		{
+			"$type": "block",
+			"$items": [
+				{
+					"$bind": "fullName"
+				},
+				{
+					"$bind": "bdate"
+				},
+				{
+					"$bind": "gender",
+					"$widget": "radio"
+				},
+				{
+					"$bind": "firstName"
+				},
+				{
+					"$bind": "age",
+					"options": {
+						"columns": true
+					}
+				},
+				{
+					"$bind": "$links.link1",
+					"options": {
+						"type": "important"
+					}
+				},
+				{
+					"$bind": "$links.checkuser"
+				}
+			]
+		}
 	],
 	"form": true
 }

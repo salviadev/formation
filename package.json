@@ -6,7 +6,6 @@
   "license": "MIT",
   "main": "app.js",
   "devDependencies": {
-    "bower": "latest",
     "grunt": "latest",
     "grunt-angular-templates": "latest",
     "grunt-bower-task": "latest",
@@ -24,6 +23,7 @@
     "load-grunt-tasks": "latest"
   },
   "dependencies": {
+    "express": "latest",
     "phoenix-seed": "git+https://salvia.visualstudio.com/DefaultCollection/PhenixJS/_git/phoenix-seed#master"
   }
 }

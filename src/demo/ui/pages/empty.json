@@ -1,5 +1,22 @@
 {
 	"name": "empty",
-	"$items": [],
+	"$items": [
+		{
+			"$type": "block",
+			"$items": [
+				{
+					"$config": {
+						"$title": "Form",
+						"$titleIsHidden": false,
+						"data": {
+							"layout": "user-detail-form",
+							"meta": "user-detail-form"
+						},
+						"$type": "user-detail-form"
+					}
+				}
+			]
+		}
+	],
 	"$type": "block"
 }
