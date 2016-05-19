@@ -1,0 +1,13 @@
+{
+    "name": "detail_charts",
+    "$type": "block",
+    "$items": [
+        {
+            "$type": "block"
+        },
+        {
+            "$type": "block"
+        }
+
+    ]
+}

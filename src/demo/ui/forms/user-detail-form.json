@@ -4,21 +4,23 @@
 	"$items": [
 		{
 			"$type": "block",
-			"$items": []
+			"$ref": "detail",
+			"form": true
 		},
 		{
 			"$type": "row",
 			"$items": [
 				{
-					"$items": [
-						{
-							"$bind": "firstName"
-						}
-					],
-					"$colSize": 6
+					"$colSize": 6,
+					"$ref": "address",
+					"$refProperty": "address",
+					"form": true
 				},
 				{
 					"$items": [
+						{
+							"$bind": "firstName"
+						},
 						{
 							"$bind": "lastName"
 						}
@@ -43,8 +45,7 @@
 				"style": ""
 			},
 			"$fieldsOptions": {
-				"columns": true,
-				"labelCol": 6
+				"columns": true
 			},
 			"$inline": false
 		},

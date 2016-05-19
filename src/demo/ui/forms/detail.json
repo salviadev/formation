@@ -1,0 +1,26 @@
+{
+	"name": "detail",
+	"$type": "block",
+	"$items": [
+		{
+			"$type": "block",
+			"$items": [
+				{
+					"$bind": "firstName"
+				},
+				{
+					"$bind": "firstName"
+				}
+			]
+		},
+		{
+			"$type": "block",
+			"$items": [
+				{
+					"$bind": "lastName"
+				}
+			]
+		}
+	],
+	"form": true
+}

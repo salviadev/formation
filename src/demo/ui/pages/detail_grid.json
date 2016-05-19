@@ -1,0 +1,13 @@
+{
+    "name": "detail_grid",
+    "$type": "block",
+    "$items": [
+        {
+            "$type": "block"
+        },
+        {
+            "$type": "block"
+        }
+
+    ]
+}

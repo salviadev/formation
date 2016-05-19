@@ -1,0 +1,15 @@
+{
+    "name": "master",
+    "$type": "block",
+    "$items": [
+        {
+            "$type": "block",
+            "$ref": "detail_grid"
+        },
+        {
+            "$type": "block",
+            "$ref": "detail_charts"
+        }
+
+    ]
+}

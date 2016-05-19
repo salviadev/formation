@@ -6,7 +6,6 @@
   "license": "MIT",
   "main": "app.js",
   "devDependencies": {
-    "grunt": "latest",
     "grunt-angular-templates": "latest",
     "grunt-bower-task": "latest",
     "grunt-contrib-clean": "latest",

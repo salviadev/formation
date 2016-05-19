@@ -1,0 +1,19 @@
+{
+	"name": "address",
+	"$type": "block",
+	"$items": [
+		{
+			"$type": "block",
+			"$items": [
+				{
+					"$bind": "country"
+				},
+				{
+					"$bind": "city"
+				}
+			]
+		}
+		],
+	"form": true
+}
+

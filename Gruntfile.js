@@ -1,5 +1,6 @@
 var fs = require('fs');
 var dsutils = require('phoenix-seed').dsutils;
+var layoutUtils = require('phoenix-seed').layoutUtils;
 var config = require('phoenix-seed').config;
 
 
@@ -58,6 +59,8 @@ function _build(grunt, moduleName) {
         grunt.task.run('clean:dist');
         // merge pages with datasets
         grunt.task.run('integrateDatasets');
+        // merge forms with subforms
+        grunt.task.run('integrateSubForms');
         grunt.task.run('copy:deploy');
 
     }
@@ -613,9 +616,26 @@ module.exports = function(grunt) {
         dsutils.integrateDatasets(pagesPath, dsPath, function(err) {
             if (err)
                 return grunt.fail.fatal(err);
+            layoutUtils.integrateSubLayouts(pagesPath, function(err) {
+                if (err)
+                    return grunt.fail.fatal(err);
+                done();
+            });
+        });
+    });
+    
+    grunt.registerTask('integrateSubForms', [], function() {
+        var done = this.async();
+        var application = grunt.config.get('application');
+        var formsPath = grunt.config.get('distPath') + '/' + application.name + '/ui/forms/';
+        layoutUtils.integrateSubLayouts(formsPath, function(err) {
+            if (err)
+                return grunt.fail.fatal(err);
             done();
         });
     });
+
+
     grunt.registerTask('compile', ['clean:before', 'clean:temp', 'clean:dist', 'clean:release', 'copy:core', 'replace', 'ts', 'less', 'ngtemplates', 'concat', 'uglify', 'cssmin', 'copy:app_json', 'copy:app']);
     grunt.registerTask('help', ['clean:help', 'copy:help']);
     grunt.registerTask('help-deploy', ['clean:help-deploy', 'copy:help-deploy']);
