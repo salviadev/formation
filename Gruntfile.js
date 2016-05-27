@@ -137,7 +137,6 @@ module.exports = function(grunt) {
                 files: [
                     {
                         src: [
-                            '<%= srcRootPath %>/<%= application.name %>/widgets/core/auth.ts',
                             '<%= srcRootPath %>/<%= application.name %>/widgets/core/main-compiled.ts',
                             '<%= srcRootPath %>/<%= application.name %>/widgets/**/*.ts',
                             '!<%= srcRootPath %>/<%= application.name %>/widgets/core/main.ts',

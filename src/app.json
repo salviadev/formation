@@ -5,9 +5,8 @@
         "authentication": "header-session"
     },
     "rest": {
-        "base": "../bus",
-        "cache": false,
-        "authentication": "header-session"
+        "base": "/bus",
+		"$context": "fp1"
     },
     "support": "Marketing@salviadeveloppement.com"
 }

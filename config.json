@@ -2,7 +2,7 @@
   "proxy": {
     "bus": {
       "src": "/bus/*",
-      "dst": "https://phenix.salviadeveloppement.com/sms"
+      "dst": "https://phenix.salviadeveloppement.com"
     }
   },
 	"simulateBus": true
