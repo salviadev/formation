@@ -5,8 +5,8 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "phoenix-cli": "git+https://manowar:m434ygr2b7xkwlqrowkggkzhf2azmq3xqgsr775gndej6fn67ieq@salvia.visualstudio.com/DefaultCollection/PhenixJS/_git/phoenix-cli#master",
-    "phoenix-app": "git+https://manowar:m434ygr2b7xkwlqrowkggkzhf2azmq3xqgsr775gndej6fn67ieq@salvia.visualstudio.com/DefaultCollection/PhenixJS/_git/phoenix-app#master",
+    "phoenix-cli": "git+https://salvia.visualstudio.com/DefaultCollection/PhenixJS/_git/phoenix-cli#master",
+    "phoenix-app": "git+https://salvia.visualstudio.com/DefaultCollection/PhenixJS/_git/phoenix-app#master",
     "angular": "1.4.x",
     "angular-route": "1.4.x",
     "es6-promise": "latest",

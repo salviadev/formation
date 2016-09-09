@@ -1,6 +1,6 @@
 
 /// <reference path="../../../public/libs/phoenix-cli/dist/phoenix.d.ts" />
-/// <reference path="../../../public/libs/phoenix-cli/typings/browser.d.ts" />
+/// <reference path="../../../public/libs/phoenix-cli/typings/index.d.ts" />
 namespace Phoenix {
     export module demo {
         let _application = application;

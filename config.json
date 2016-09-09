@@ -5,5 +5,5 @@
       "dst": "https://phenix.salviadeveloppement.com"
     }
   },
-	"simulateBus": true
+	"simulateBus": false
 }

@@ -19,7 +19,8 @@
     "grunt-html-build": "latest",
     "grunt-ts": "latest",
     "grunt-replace": "latest",
-    "load-grunt-tasks": "latest"
+    "load-grunt-tasks": "latest",
+	"typescript": "2.x.x"
   },
   "dependencies": {
     "express": "latest",
